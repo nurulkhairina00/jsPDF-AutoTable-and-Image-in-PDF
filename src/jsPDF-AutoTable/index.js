@@ -4,7 +4,7 @@ import "jspdf-autotable";
 import axios from "axios";
 import moment from "moment/moment";
 export default function Index() {
-  let [data, setData] = useState([]);
+  let [data, setData] = useState([]); //state data
   let [hasil, setHasil] = useState([]);
   let temp = [];
 
